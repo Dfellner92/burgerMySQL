@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eat-da-burger</title>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/assets/css/burger_style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center" id="top-bar">
+          <img src="../public/assets/img/burger.png" alt="burger">
+          <h1>Eat-Da-Burger!</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center enter_section">
+          <p>Enter a burger you want to eat &amp; click the "Submit" button.</p>
+          <form class="add-burger">
+            <input type="text" class="form-control" name="burger_name" value="" id="burger_name">
+            <button type="submit" class="btn btn-primary" id="text-enter-button">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center enter_section">
+          <p>Eat and Delete a burger.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" id="not_devoured"><div class="row burger-row"><div class="col-md-9 text-center">9. Hello</div><div class="col-md-3 text-center"><button type="button" class="btn btn-primary devour" data-id="9">Devour</button></div></div></div>
+        <div class="col-md-6" id="devoured"></div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="/assets/js/burger.js"></script>
+  
+
+</body>
+
+</html>
